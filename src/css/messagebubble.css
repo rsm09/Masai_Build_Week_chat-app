@@ -1,0 +1,81 @@
+.message-bubble {
+  max-width: 70%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--bubble);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+/* Sender's message (right-aligned) */
+.sender {
+  margin-left: auto;
+  background-color: var(--sender);
+  border-top-right-radius: 0;
+}
+
+/* Receiver's message (left-aligned) */
+.receiver {
+  margin-right: auto;
+  background-color: var(--receiver);
+  border-top-left-radius: 0;
+}
+
+/* Message header with profile and user info */
+.msg-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.msg-header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.msg-header h5 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.msg-header p {
+  margin: 0;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+/* Main text message */
+.msg-text {
+  margin-top: 5px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Timestamp at bottom */
+.timestamp {
+  font-size: 10px;
+  color: var(--muted);
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+.tick {
+  font-size: 12px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.tick.sent {
+  color: gray;
+}
+
+.tick.read {
+  color: blue;
+}

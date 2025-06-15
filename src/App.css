@@ -1,0 +1,33 @@
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --border: #ddd;
+  --accent: #4e89ff;
+  --input: #f0f0f0;
+  --header: #fafafa;
+  --footer: #fafafa;
+  --card: #f9f9f9;
+  --hover: #eee;
+  --active: #e0eaff;
+  --muted: #666;
+  --sender: #d9fdd3;
+  --receiver: #f1f0f0;
+  --bubble: #e8e8e8;
+}
+
+[data-theme="dark"] {
+  --bg: #1e1e1e;
+  --text: #f0f0f0;
+  --border: #333;
+  --accent: #4e89ff;
+  --input: #2a2a2a;
+  --header: #2c2c2c;
+  --footer: #2c2c2c;
+  --card: #2a2a2a;
+  --hover: #333;
+  --active: #334488;
+  --muted: #aaa;
+  --sender: #2e7d32;
+  --receiver: #424242;
+  --bubble: #3a3a3a;
+}

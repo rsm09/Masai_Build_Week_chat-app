@@ -1,0 +1,97 @@
+.sidebar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.sidebar-user:hover {
+  background-color: var(--hover);
+}
+
+.sidebar-user.active {
+  background-color: var(--active);
+}
+
+.sidebar-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar-user h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.sidebar-user p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.green-dot {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.edit-btn {
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.userlist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: var(--card);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.user-card:hover {
+  background-color: var(--hover);
+}
+
+.user-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-card h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.user-card p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+

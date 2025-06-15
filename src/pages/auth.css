@@ -1,0 +1,45 @@
+.auth-container {
+  max-width: 350px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: var(--card-bg);
+  color: var(--text);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(100, 100, 100, 0.2);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: var(--input-bg);
+  color: var(--text);
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: var(--accent-dark);
+}
+
+.auth-container .error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
